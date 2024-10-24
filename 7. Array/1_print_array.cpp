@@ -1,18 +1,22 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int arr[5] = {1,2,3,4,5};
+    int n;  cin>>n;
+    char arr[n];
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
 
-    for(int i=0;i<5;i++){
+    for(int i=0;i<n;i++){
         cout<<arr[i]<<" ";
     }
     cout<<endl;
-    for(int ele : arr){
-        cout<<arr[ele]<<" ";
+    for(char ele : arr){
+        cout<<ele<<" ";
     }
     cout<<endl;
     int i=0;
-    while(i<5){
+    while(i<n){
         cout<<arr[i]<<" ";
         i++;
     }
