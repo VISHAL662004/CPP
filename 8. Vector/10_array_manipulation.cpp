@@ -3,7 +3,6 @@
 using namespace std;
 int main(){
     int arr[] = {2,3,1,3,2,4,1};
-    int unique;
     for(int i = 0;i<7;i++){
         for(int j = i+1;j<7;j++){
             if(arr[i] == arr[j]){
