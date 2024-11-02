@@ -14,7 +14,7 @@ void spiralMatrix(vector <vector <int> > v){
             top++;
         }
 
-        // top -> bottom
+  
         else if(direction == 1){
             for(int row = top; row<=bottom; row++){
                 cout<<v[row][right]<<" ";
