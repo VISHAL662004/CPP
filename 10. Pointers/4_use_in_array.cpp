@@ -26,7 +26,7 @@ int main(){
         cout<<*(array + i)<<" ";
     }
 
-    cout<<"\n\n\n";
+    cout<<"\n\n\n"; 
 
     // Array of pointers to the arrays
     int *p[3] = {arr, arr2, cri};
